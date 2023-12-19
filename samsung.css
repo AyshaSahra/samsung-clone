@@ -140,6 +140,8 @@ body{
     font-size: large;
     font-weight: normal;
     border-radius: 30px;
+    top:85%;
+    left: 70%;
 }
 .clickbuy:hover{
     cursor: pointer;
