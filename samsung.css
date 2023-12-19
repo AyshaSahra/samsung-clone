@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@200&family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+body{
+    background-color: whitesmoke;
+    margin-top: 10px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    width: 100%;
+    height: 75px;
+    display: flex;
+    align-items:centre;
+}
+.logo{
+    display: flex;
+    margin-top: 1px;
+}
+.icon{
+    display: inline-block;
+    position: absolute;
+    width: 80px;
+    height: 22px;
+    margin-top: 20px;
+    margin-left: 5px; 
+}
+
+.home{
+    display: inline-block;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 90px;
+    font-size: medium;
+    font-family:Kalnia, serif;
+    font-weight: bold;
+    border:none;
+    color: black;
+    padding-bottom: 10px ;
+    padding-top: 4px;
+    width: 100px ;
+    height: 50px;
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+.home:hover{
+    font-weight: bolder;
+    border-radius: 30px;
+    background-color: rgb(215, 215, 215);
+}
+
+.options{
+    margin-top: 10px;
+    margin-left: 3px;
+    font-size: medium;
+    font-family:Kalnia, serif;
+    font-weight: bolder;
+    border:none;
+    padding-bottom: 10px ;
+    padding-top: 4px;
+    width: 110px ;
+    height: 50px;
+    background-color: whitesmoke;
+}
+
+.options:hover{
+    font-weight: bolder;
+    border-radius: 30px;
+    background-color: rgb(215, 215, 215);
+}
+
+.search{
+    margin-left: 200px;
+    margin-top: 15px;
+    height: 35px;
+    width: 35px;
+    padding-left: 5px;
+}
+.search:hover{
+    cursor: pointer;
+}
+
+.cart{
+    margin-left: 15px;
+    margin-top: 15px;
+    height: 35px;
+    width: 35px;
+    padding-left: 5px;
+}
+
+.cart:hover{
+    cursor: pointer;
+}
+
+.profile{
+    margin-left: 15px;
+    margin-top: 15px;
+    height: 35px;
+    width: 35px;
+}
+
+.profile:hover{
+    cursor: pointer;
+}
+
+.line{
+    height:1px;
+    background-color: black;
+}
+
+.body1{
+    display: flex;
+    align-items: center;
+    
+}
+.flip1{
+    object-fit: fill;
+    width:1200px;
+    height: 675px;
+    display: flex;
+    margin-left:2.5% ;
+    align-items: center;
+}
+.buy{
+    display: flex;
+    margin-top: 0;
+    position: absolute;
+    top:85%;
+    left: 70%;
+}
+.clickbuy{
+    width:110px;
+    height: 40px;
+    background-color: black;
+    color: antiquewhite;
+    font-size: large;
+    font-weight: normal;
+    border-radius: 30px;
+}
+.clickbuy:hover{
+    cursor: pointer;
+}
+
+.body2{
+    margin-top: 5%;
+}
+.items{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.recomend{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+    color: black;
+    font-family: mukta, serif;
+}
+.product1{
+    width: 350px;
+    height: 630px;
+    display: inline-block;
+    background-color: white; 
+    border-radius: 8%;
+    font-family: mukta,serif;
+    font-size: large;
+    font-weight: bold;
+    margin-top: 1%;
+    margin-left: 8%;
+}
+
+.S20{
+    width:180px;
+    height: 256px;
+    margin-top: 12%;
+    margin-left: 25%;
+    display: flex;
+    justify-content: center;
+}
+.name1{
+    display: flex;
+    justify-content: center;
+    margin-top: 15%;
+}
+.gb1{
+    margin-left: 27%;
+    margin-top: 4%;
+    width: 70px;
+    height: 28px;
+    border-radius: 30px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-family: mukta, serif;
+    font-size: medium;
+    font-weight: lighter;
+    display: inline-block;
+}
+.rate{
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+}
+.MRP{
+    font-size: small;
+    font-weight: lighter;
+    display: flex;
+    justify-content: center;
+    padding-top: 3%;
+}
+.buyS20{
+    margin-left:38%;
+    margin-top: 6%;
+    width: 85px;
+    height: 35px;
+    border-radius: 30px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-family: mukta, serif;
+    font-size: medium;
+    font-weight: lighter;
+    display: inline-block;
+    cursor: pointer;
+}
+.product2{
+    width: 350px;
+    height: 630px;
+    display: inline-block;
+    background-color: white; 
+    border-radius: 8%;
+    font-family: mukta,serif;
+    font-size: large;
+    font-weight: bold;
+    margin-left:8%;
+    margin-top: 1%;
+}
+.buds{
+    width:180px;
+    height: 256px;
+    margin-top: 12%;
+    margin-left: 25%;
+    display: flex;
+    justify-content: center;
+}
+.product3{
+    width: 350px;
+    height: 630px;
+    display: inline-block;
+    background-color: white; 
+    border-radius: 8%;
+    font-family: mukta,serif;
+    font-size: large;
+    font-weight: bold;
+    margin-left:8%;
+    margin-top: 1%;
+}
+.tab{
+    width:200px;
+    height: 256px;
+    margin-top: 12%;
+    margin-left: 25%;
+    display: flex;
+    justify-content: center;
+}
+.end{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+}
